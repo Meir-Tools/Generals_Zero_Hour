@@ -56,6 +56,7 @@ Enter_server_from_main_menu()
 create_game_from_main_menu()
 {
 	my_click_on(1200,300)
+	sleep, 2000 ;(wait 2.0 seconds) 
 	my_click_on(1200,300)
 	my_click_on(350,920) 
 } 
@@ -86,7 +87,8 @@ clash_4_x_4()
 }
 my_click_on(mX,mY)
 {
-	MouseMove, mX, mY, 25 
+	; MouseMove, mX, mY, 50 ; slow oftion
+	MouseMove, mX, mY, 5 ; fater option
 	Click
 	sleep, 400 ;(wait 0.4 seconds) 
 }
@@ -111,3 +113,8 @@ set_line_as_group2(line_num)
 	my_click_on(mX,mY)
 	my_click_on(mX,mY + 90)
 }
+Esc::  ; Pres Esc to get here
+	Suspend
+	ExitApp 
+	Pause,, 1
+Return

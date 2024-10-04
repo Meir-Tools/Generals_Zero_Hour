@@ -55,20 +55,10 @@ Enter_server_from_main_menu()
 }
 create_game_from_main_menu()
 {
-	MouseMove, 1200, 300, 50 
-	Click 
-	sleep, 2000 ;(wait 2 seconds) 
-	Click 
-	MouseMove, 350, 920, 50 
-	Click 
-}
-set_1_to_4_group1()
-{
-	; set_line_as_group1(1)
-	mX := 350
-	mY := 260 + (1-1) * 40
-	my_click_on(mX,mY)
-}
+	my_click_on(1200,300)
+	my_click_on(1200,300)
+	my_click_on(350,920) 
+} 
 clash_4_x_4()
 {
 	; Select second as Hard Army

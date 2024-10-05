@@ -8,3 +8,7 @@
 ```
 findstr /R /C:"Resolution" "%USERPROFILE%\Documents\Command and Conquer Generals Zero Hour Data\Options.ini"
 ```
+## common_display_resolutions
+```
+https://en.wikipedia.org/wiki/List_of_common_display_resolutions
+```

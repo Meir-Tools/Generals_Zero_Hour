@@ -7,6 +7,8 @@
 MyWinTitle := "Command & Conquer (TM) Generals Zero Hour"
 if WinExist(MyWinTitle)
 {
+	WinGetPos, Xpos, Ypos , Wpos, Hpos  ; Use the window found by WinExist. | https://www.autohotkey.com/docs/v1/lib/WinGetPos.htm
+    MsgBox, MyWinTitle is at %Xpos%`,%Ypos% ,  %Wpos%`,%Hpos%
 	WinActivate ; Use the window found by WinExist.
 	; WinMove 100, 100, 1600 , 1024, MyWinTitle
 	; multiplier button = 1200 300

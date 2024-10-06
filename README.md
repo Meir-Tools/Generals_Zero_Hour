@@ -12,3 +12,7 @@ findstr /R /C:"Resolution" "%USERPROFILE%\Documents\Command and Conquer Generals
 ```
 https://en.wikipedia.org/wiki/List_of_common_display_resolutions
 ```
+## FAQ 
+```
+if the script not run on window , you may run the winodw in admin mode , then you need run the script also with admin rights
+```

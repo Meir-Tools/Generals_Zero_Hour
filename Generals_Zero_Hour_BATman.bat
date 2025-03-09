@@ -64,6 +64,11 @@ EXIT /B 0
 	taskkill /IM %Prcss_name% /F
 	pause
 EXIT /B 0
+:OPT3 | 3 - edit options file
+	echo %lpath% &REM set lpath=%0 ::in top need set resolution 1600 , 1024  
+	start "" "C:\Program Files\Notepad++\notepad++.exe" "%USERPROFILE%\Documents\Command and Conquer Generals Zero Hour Data\Options.ini"
+	pause
+EXIT /B 0
 :OPT- | - - - - - - some beta and testing here - - - - - - - -  
 	PAUSE
 EXIT /B 0
